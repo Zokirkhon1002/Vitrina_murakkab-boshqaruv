@@ -1,15 +1,18 @@
 .App {
   text-align: center;
+  font-family: 'Kanit', sans-serif;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  font-family: 'Kanit', sans-serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    font-family: 'Kanit', sans-serif;
   }
 }
 
@@ -22,12 +25,75 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Kanit', sans-serif;
 }
 
 .App-link {
   color: #61dafb;
+  font-family: 'Kanit', sans-serif;
 }
-
+.large.material-icons{
+  display: fixed important;
+  position: fixed;
+  top: 100px;
+  right: 50px;
+  font-size: 50px;
+  padding: 1.3rem;
+  z-index: 9;
+  color: #fff;
+  border-radius: 10px;
+}
+.cart-quantity {
+  display: fixed important;
+  position: fixed;
+  top: 140px;
+  right: 70px;
+  color: #fff;
+  font-size: 20px;
+  z-index: 9;
+  border-radius: 10px;
+}
+.karta {
+  display: fixed important;
+  bottom: 2rem;
+  right: 2rem;
+  cursor: pointer;
+  z-index: 9;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.876);
+}
+.bsk-button-add{
+  position: fixed;
+  right: 72px;
+  border: none;
+  outline: none;
+  transition: 0.2s ease-in-out;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.2)
+}
+.bsk-button-add:hover {
+  outline: none;
+  background-color: rgb(141, 219, 211)
+}
+.bsk-button-add:active {
+  outline: none;
+}
+.bsk-button-dec{
+  position: fixed;
+  right: 50px;
+  border: none;
+  outline: none;
+  transition: 0.2s ease-in-out;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.2)
+}
+.bsk-button-dec:hover {
+  outline: none;
+  background-color: rgb(141, 219, 211)
+}
+.bsk-button-dec:active {
+  outline: none;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
