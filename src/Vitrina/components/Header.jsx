@@ -10,7 +10,7 @@ function Header() {
         </a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>
-            <a href="https://github.com/Zokirkhon1002/Vitrina-shop">Source Code</a>
+            <a href="https://github.com/Zokirkhon1002/Vitrina_murakkab-boshqaruv">Source Code</a>
           </li>
         </ul>
       </div>
