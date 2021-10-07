@@ -11,7 +11,7 @@ function Basketlist() {
   return (
     <div className="bsk">
       <ul className="collection basket-list">
-        <li className="collection-item active">Basket List</li>
+        <li className="collection-item active bg-success">Basket List</li>
         {order.length ? (
           order.map((item) => {
             return(
@@ -24,7 +24,7 @@ function Basketlist() {
         ) : (
           <li className="collection-item">Basket is empty</li>
         )}
-        <li className="collection-item active">
+        <li className="collection-item active bg-success">
           Total Price: {totalPrice}
           <b> so'm</b>
         </li>

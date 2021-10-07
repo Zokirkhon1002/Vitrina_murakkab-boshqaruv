@@ -30,7 +30,7 @@ function BasketItems(props) {
             -
           </button>
           <i
-            className="material-icons basket-delete"
+            className="material-icons basket-delete red-text"
             onClick={() => removeFromBasket(id)}
           >
             delete
